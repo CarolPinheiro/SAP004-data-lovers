@@ -1,5 +1,5 @@
 import { rules, sortByType, getFilterPokemon, throwNewErrorFilters, throwNewErrorCalc } from '../src/data.js';
-import { dataPokemon, Bulbasaur, Ivysaur, Venusaur, Charmander, Ditto } from '../src/arraypokemon.js'
+import { dataPokemon, Bulbasaur, Ivysaur, Venusaur, Charmander, Ditto } from './mockpokemon.js'
 
 describe('rules', () => {
 
