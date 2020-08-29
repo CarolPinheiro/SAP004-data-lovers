@@ -1,6 +1,6 @@
 @font-face {
   font-family: "pokemon";
-  src: url(pokemon/Pokemon\ Solid.ttf);
+  src: url(./font-style/Pokemon\ Solid.ttf);
 }
 
 html {
@@ -111,16 +111,19 @@ a {
   justify-content: space-around;
   border-radius: 10px;
   border: none;
-  height: 35px;
   width: 70px;
   background-color: white;
   cursor: pointer;
   margin-left: 5px;
   outline: none;
+  height: 40px;
+  margin-right: 0px;
 }
 
 .filter-button:hover {
   background-color: whitesmoke;
+  transform: scale(1.1);
+  transition: 3s;
 }
 
 nav {
@@ -167,7 +170,6 @@ nav {
   text-align-last: center;
   width: 100px;
   background-color: #79C4F2;
-  /* border: 1px solid #f2e750; */
   border: 1px solid white;
   font-family: Helvetica;
   font-size: 20px;
@@ -507,11 +509,6 @@ h2 {
   }
   .search-button {
     width: 20%;
-  }
-  .filter-button {
-    width: 60px;
-    height: 40px;
-    margin-right: 0px;
   }
   .max-width-nav {
     flex-direction: column;
