@@ -101,6 +101,7 @@ a {
 }
 
 .fa-filter {
+  margin: auto;
   font-size: 20px;
   color: gray;
 }
@@ -193,6 +194,8 @@ select:hover {
 
 .clean-button:hover {
   background-color: whitesmoke;
+  transform:scale(1.1);
+  transition: 3s;
 }
 
 main {
@@ -526,7 +529,7 @@ h2 {
   .select-label {
     width: 40%;
   }
-  .clean-button{
+  .clean-button {
     position: relative;
     width: 80%;
     right: 5%;
